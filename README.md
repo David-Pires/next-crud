@@ -1,3 +1,52 @@
+
+
+
+
+1 - clonar repositório
+
+```
+  git clone https://github.com/David-Pires/next-crud.git  
+```
+
+1 - instalar dependencias 
+
+```
+npm install react react-dom next
+
+```
+2 - criar projeto no firebase, criar banco de dados de teste sem restrição ( apenas para testes ) 
+
+
+3 - instalar tailwind 
+
+  > npm install -D tailwindcss postcss autoprefixer
+
+4 - Acrescenter código no arquivo tailwind.config.js
+
+![image](https://user-images.githubusercontent.com/78885070/165004030-9c79dfbb-d459-4749-bdec-6e6e2cf4966e.png)
+
+
+```
+
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+
+```
+
+
+
+npm install --save-dev @types/react @types/node typescript
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
