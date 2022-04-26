@@ -19,7 +19,12 @@ npm install react react-dom next
 
 3 - instalar tailwind 
 
-  > npm install -D tailwindcss postcss autoprefixer
+```
+
+   npm install -D tailwindcss postcss autoprefixer
+  
+  
+ ```
 
 4 - Acrescenter código no arquivo tailwind.config.js
 
