@@ -8,13 +8,13 @@
   git clone https://github.com/David-Pires/next-crud.git  
 ```
 
-1 - instalar dependencias 
+2 - instalar dependencias 
 
 ```
 npm install react react-dom next
 
 ```
-2 - criar projeto no firebase, criar banco de dados de teste sem restrição ( apenas para testes ) 
+
 
 
 3 - instalar tailwind 
@@ -53,8 +53,13 @@ module.exports = {
 @tailwind utilities;
 ```
 
-npm install --save-dev @types/react typescript
+6 - Instalar @types/react e typescript
 
+```
+npm install --save-dev @types/react typescript
+```
+
+7 - criar projeto no firebase, criar banco de dados de teste sem restrição ( apenas para testes ) 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
