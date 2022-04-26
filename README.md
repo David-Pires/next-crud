@@ -21,7 +21,7 @@ npm install react react-dom next
 
 ```
 
-   npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss postcss autoprefixer
   
   
  ```
@@ -32,7 +32,6 @@ npm install react react-dom next
 
 
 ```
-
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -44,10 +43,15 @@ module.exports = {
   plugins: [],
 }
 
-
 ```
 
+5 - Inserir importação Tailwind no arquivo **css.global**
 
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
 npm install --save-dev @types/react typescript
 
