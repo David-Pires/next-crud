@@ -9,8 +9,9 @@ export default function Home() {
       text-white
     `}>
     
-      <Layout titulo='Cadastro Simples'> </Layout>
-      <span></span>
+      <Layout titulo='Cadastro Simples'>
+        <span>Conteudo</span>
+      </Layout>
 
     </div>
   )
