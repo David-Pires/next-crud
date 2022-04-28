@@ -61,6 +61,8 @@ npm install --save-dev @types/react typescript
 
 7 - criar projeto no firebase, criar banco de dados de teste sem restrição ( apenas para testes ) 
 
+implementar continuação e ambiente final 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
